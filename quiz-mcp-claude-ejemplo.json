@@ -1,0 +1,181 @@
+[
+  {
+    "id": "seccion-1",
+    "titulo": "Fundamentos de MCP (Model Context Protocol)",
+    "tipo": "seccion",
+    "descripcion": "Conceptos básicos y arquitectura del Model Context Protocol utilizado por Claude para conectarse con herramientas externas.",
+    "imagen": "",
+    "codigo": "MCP-FUND",
+    "orden": 1,
+    "random": "N",
+    "children": [
+      {
+        "id": "pregunta-1-1",
+        "titulo": "¿Qué es el Model Context Protocol (MCP)?",
+        "tipo": "pregunta_unica",
+        "descripcion": "Selecciona la definición más precisa del Model Context Protocol en el contexto de Claude AI:",
+        "imagen": "",
+        "codigo": "P001",
+        "orden": 1,
+        "random": "N",
+        "opciones": [
+          {
+            "id": "opt-1-1-a",
+            "texto": "Un protocolo de comunicación para conectar Claude con herramientas y recursos externos",
+            "correcta": true
+          },
+          {
+            "id": "opt-1-1-b",
+            "texto": "Una metodología para entrenar modelos de lenguaje",
+            "correcta": false
+          },
+          {
+            "id": "opt-1-1-c",
+            "texto": "Un sistema de almacenamiento de conversaciones",
+            "correcta": false
+          },
+          {
+            "id": "opt-1-1-d",
+            "texto": "Un algoritmo de optimización de respuestas",
+            "correcta": false
+          }
+        ],
+        "children": []
+      },
+      {
+        "id": "pregunta-1-2",
+        "titulo": "Ventajas del MCP",
+        "tipo": "pregunta_multiple",
+        "descripcion": "¿Cuáles son las principales ventajas que ofrece el Model Context Protocol? (Selecciona todas las correctas)",
+        "imagen": "",
+        "codigo": "P002",
+        "orden": 2,
+        "random": "S",
+        "opciones": [
+          {
+            "id": "opt-1-2-a",
+            "texto": "Permite acceso a sistemas de archivos locales",
+            "correcta": true
+          },
+          {
+            "id": "opt-1-2-b",
+            "texto": "Facilita la integración con bases de datos",
+            "correcta": true
+          },
+          {
+            "id": "opt-1-2-c",
+            "texto": "Reemplaza completamente la necesidad de APIs",
+            "correcta": false
+          },
+          {
+            "id": "opt-1-2-d",
+            "texto": "Proporciona acceso a herramientas especializadas",
+            "correcta": true
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "seccion-2",
+    "titulo": "Implementación y Configuración de MCP",
+    "tipo": "seccion",
+    "descripcion": "Aspectos técnicos, configuración y mejores prácticas para implementar MCP en proyectos con Claude.",
+    "imagen": "",
+    "codigo": "MCP-IMPL",
+    "orden": 2,
+    "random": "N",
+    "children": [
+      {
+        "id": "pregunta-2-1",
+        "titulo": "Configuración de Servidor MCP",
+        "tipo": "pregunta_unica",
+        "descripcion": "¿Cuál es el primer paso para configurar un servidor MCP?",
+        "imagen": "",
+        "codigo": "P003",
+        "orden": 1,
+        "random": "N",
+        "opciones": [
+          {
+            "id": "opt-2-1-a",
+            "texto": "Instalar las dependencias necesarias del SDK de MCP",
+            "correcta": true
+          },
+          {
+            "id": "opt-2-1-b",
+            "texto": "Crear una cuenta en Anthropic",
+            "correcta": false
+          },
+          {
+            "id": "opt-2-1-c",
+            "texto": "Configurar un servidor web tradicional",
+            "correcta": false
+          },
+          {
+            "id": "opt-2-1-d",
+            "texto": "Obtener certificados SSL",
+            "correcta": false
+          }
+        ],
+        "children": []
+      },
+      {
+        "id": "pregunta-2-2",
+        "titulo": "Mejores Prácticas de Seguridad",
+        "tipo": "pregunta_multiple",
+        "descripcion": "¿Qué medidas de seguridad son importantes al implementar MCP? (Selecciona todas las aplicables)",
+        "imagen": "",
+        "codigo": "P004",
+        "orden": 2,
+        "random": "N",
+        "opciones": [
+          {
+            "id": "opt-2-2-a",
+            "texto": "Validar y sanitizar todas las entradas",
+            "correcta": true
+          },
+          {
+            "id": "opt-2-2-b",
+            "texto": "Implementar autenticación robusta",
+            "correcta": true
+          },
+          {
+            "id": "opt-2-2-c",
+            "texto": "Usar siempre conexiones HTTP sin cifrado",
+            "correcta": false
+          },
+          {
+            "id": "opt-2-2-d",
+            "texto": "Establecer límites de acceso y permisos",
+            "correcta": true
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "seccion-3",
+    "titulo": "Casos de Uso y Aplicaciones Avanzadas",
+    "tipo": "seccion",
+    "descripcion": "Exploración de casos de uso reales y aplicaciones avanzadas del Model Context Protocol en diferentes dominios.",
+    "imagen": "",
+    "codigo": "MCP-ADV",
+    "orden": 3,
+    "random": "N",
+    "children": [
+      {
+        "id": "pregunta-3-1",
+        "titulo": "Aplicaciones Empresariales del MCP",
+        "tipo": "pregunta_abierta",
+        "descripcion": "Describe un caso de uso específico donde MCP podría beneficiar significativamente a una organización empresarial. Incluye el problema que resuelve, la implementación propuesta y los beneficios esperados (mínimo 150 palabras).",
+        "imagen": "",
+        "codigo": "P005",
+        "orden": 1,
+        "random": "N",
+        "children": []
+      }
+    ]
+  }
+]
